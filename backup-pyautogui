@@ -26,4 +26,8 @@ pyautogui.mouseDown()
 pyautogui.mouseUp()
 pyautogui.alert("The code is over. You can use your computer normally  :)")
 
-pyautogui.position() #You can use this to find a position of your mouse
+
+pyautogui.position()  #You can use this to find a position of your mouse (position X, position Y)
+
+#important to remember that this is the position of my mouse relative to my PC's resolution, yours may be different, so use this line of code to find the correct position where you want your mouse to go
+
