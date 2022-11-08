@@ -1,0 +1,29 @@
+import pyautogui
+import time
+
+pyautogui.alert("Your code will start. Don't use anything in your computer when the code begin.") #Use this to display a message to user
+pyautogui.PAUSE = 1.5 
+pyautogui.press('winleft')
+pyautogui.write('brave')
+time.sleep(1.5)
+pyautogui.press('enter')
+time.sleep(1.5)
+pyautogui.write('https://drive.google.com/drive/my-drive')
+time.sleep(1.0)
+pyautogui.press('enter')
+time.sleep(4)
+pyautogui.hotkey('winleft', 'd')
+pyautogui.moveTo(641, 45) 
+pyautogui.mouseDown() 
+pyautogui.moveTo(719, 506)
+pyautogui.hotkey('alt', 'tab')
+pyautogui.mouseUp() 
+pyautogui.moveTo(499, 373)
+pyautogui.mouseDown()
+pyautogui.mouseUp()
+pyautogui.moveTo(907, 651)
+pyautogui.mouseDown()
+pyautogui.mouseUp()
+pyautogui.alert("The code is over. You can use your computer normally  :)")
+
+pyautogui.position() #You can use this to find a position of your mouse
